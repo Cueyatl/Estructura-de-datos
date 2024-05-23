@@ -1,0 +1,70 @@
+Check out me later:
+  Check out hashing algorithms.
+  should you be using something instead of what you should use instead?
+  are dicts hashtable?
+associative arrays in certain languages:
+  js=Map, WeakMap classes.
+  py=dictionaries
+  go=maps
+DYNAMIC ARRAYS AND TREE LISTS ARE NEEDED TO LEARN THIS SHIT.
+search tree algorithm in recursion do it c++ and java
+if (tree==null){
+  return false;
+}
+else if (number<tree-<number){
+  return search(tree-<left, number);
+}
+else if (number>tree->number){
+  return search(tree->rigth, number);
+}
+else if(number==tree->number)
+{return true;}
+how to balance trees of like linked list structure.
+how to dictionaries in java and cpp. make a repaso** in js and python.
+hashmap is a dict? 
+check out time complexity, importt for =Olog n  and const O1.
+O(n/k)
+
+  A hashtable of key value pairs is often referred as a hashmap.
+  hash algo or has function
+  is a calculation applied to a key which could be a very long string or number into a  
+  much shorter value that can be used for indexing purposes(address)
+For num keys, divide the key by the number of available addresses, n and take the remainder.
+address=key % n
+for alphanumbs, divide the sum of ascii codes in akey b the number of available addresses, n and take the remainder.
+folding method divides jey into equal parts then adds the parts together.
+  eg: 013228= 01+32+28= 61 depending on size of table, may then divide by some constatn and take remainder.
+
+LOAD FACTOR
+  check me out later!!
+  Load Factor=total num of items stores/size of the array
+  it is best if the array is occupied as much as 75%, this way wer are less likely to have collisions.
+
+COLISON RESOLUTION
+  open addressing.
+      keep trying new buckets until you find a free one.
+      Basic Approach:
+        linear probing
+        quadratic probing
+        double hashing
+      plus 3 rehash
+      quadratic probingdouble hashing
+  closed addressing
+Objectives of hash functions.
+  minimize collisinos
+  uniform distribution of hash values
+  easy to calculate
+  resolve any colission
+What is it used for:
+  Used to index large amoutns of data.
+  Address of each ke calcyalted using the key itself.
+  Collisions resolved with open or closed addressinghashing is widely used in database indexing, compilers, caching, password authentication and more.
+  insertion, deletion and retrieval occur in constant time.
+
+mit: hashing.
+wikipedia hash functions algos and best practice.
+
+
+
+
+
